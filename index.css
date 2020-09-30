@@ -1,0 +1,86 @@
+* {
+  color: rgb(40, 40, 40);
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+}
+
+nav .container {
+  padding: 15px 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: salmon;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul:first-child li a {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+nav ul:first-child {
+  margin-bottom: 15px;
+}
+
+nav ul:last-child li a {
+  margin-right: 15px;
+}
+
+.hero {
+  background-image: url("./img.jpg");
+  background-size: cover;
+  background-position: 0px -165px;
+  background-repeat: no-repeat;
+  border-top: 3px solid salmon;
+  border-bottom: 3px solid skyblue;
+  height: 250px;
+}
+
+.content {
+  padding: 25px;
+}
+
+.content h1 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.content .author a {
+  color: salmon;
+  margin-bottom: 15px;
+}
+
+.content .author {
+  color: rgb(85, 85, 85);
+  margin-bottom: 15px;
+}
+
+.content .article p {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+footer .container {
+  background-color: rgb(40, 40, 40);
+  padding: 10px;
+}
+
+footer .container p {
+  color: white;
+  text-align: center;
+}
