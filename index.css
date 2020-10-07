@@ -75,6 +75,28 @@ nav ul:last-child li a {
   margin-bottom: 10px;
 }
 
+.left {
+  float: left;
+  width: 600px;
+  padding-right: 10px;
+}
+
+.right {
+  float: right;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.author-img {
+  border-radius: 5%;
+  margin-bottom: 4px;
+}
+
+.author-name {
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
 footer .container {
   background-color: rgb(40, 40, 40);
   padding: 10px;
