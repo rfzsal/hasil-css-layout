@@ -6,12 +6,22 @@
 
 body {
   background-color: whitesmoke;
+  padding-top: 65px;
 }
 
 .container {
   background-color: white;
   width: 800px;
   margin: auto;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 45px;
+  background-color: salmon;
 }
 
 nav .container {
@@ -95,6 +105,29 @@ nav ul:last-child li a {
 .author-name {
   font-weight: bolder;
   margin-bottom: 8px;
+}
+
+#modal.hide {
+  display: none;
+}
+
+#modal {
+  position: fixed;
+  top: 100px;
+  bottom: 200px;
+  left: 200px;
+  right: 200px;
+  background-color: black;
+  opacity: 0.85;
+}
+
+#modal a.close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
 }
 
 footer .container {
